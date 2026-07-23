@@ -12,6 +12,7 @@ import Problem from "@/components/sections/Problem";
 import Features from "@/components/sections/Features";
 import Pricing from "@/components/sections/Pricing";
 import FAQ from "@/components/sections/FAQ";
+import BookDemo from "@/components/sections/BookDemo";
 export default function Home() {
   return (
     <>
@@ -25,8 +26,8 @@ export default function Home() {
       <Features />
       <WhyChooseUs />
       <Pricing />
+      <BookDemo />
       <FAQ />
-      <CallToAction />
       <Footer />
 
     </>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
+import StructuredData from "@/components/seo/StructuredData";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -121,6 +122,8 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="bg-[#050816] text-white antialiased">
+        <StructuredData />
+
         {children}
       </body>
     </html>

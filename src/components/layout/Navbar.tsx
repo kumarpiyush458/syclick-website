@@ -84,7 +84,7 @@ export default function Navbar() {
           {/* Desktop CTA */}
 
           <div className="hidden lg:block">
-            <a href="#contact">
+            <a href="#book-demo">
               <Button>
                 Schedule Demo
               </Button>
@@ -204,7 +204,7 @@ export default function Navbar() {
           <div className="mt-auto pt-10">
 
             <a
-              href="#contact"
+              href="#book-demo"
               onClick={closeMenu}
             >
               <Button>

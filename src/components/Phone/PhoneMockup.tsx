@@ -91,7 +91,7 @@ export default function PhoneMockup() {
     }, []);
 
   return (
-    <div className="relative w-[340px] h-[620px] animate-float rounded-[40px] bg-gradient-to-b from-slate-900 to-slate-950 border border-cyan-500/20 shadow-[0_0_80px_rgba(0,255,255,0.12)] overflow-hidden">
+    <div className="relative w-[330px] h-[650px] animate-float rounded-[40px] bg-gradient-to-b from-slate-900 to-slate-950 border border-cyan-500/20 shadow-[0_0_80px_rgba(0,255,255,0.12)] overflow-hidden">
         {/* Dynamic Island */}
         <div className="absolute top-3 left-1/2 -translate-x-1/2 z-30">
             <div className="w-32 h-8 rounded-full bg-black/90 border border-white/5 shadow-lg"></div>

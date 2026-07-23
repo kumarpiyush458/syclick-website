@@ -66,41 +66,11 @@ export default function Hero() {
 
             <div className="mt-10 flex flex-wrap items-center gap-6">
 
-              <a href="#contact">
+              <a href="#book-demo">
                 <Button>
                   Book a Live Demo
                 </Button>
               </a>
-
-              <button className="group flex items-center gap-4">
-
-                <div className="relative flex h-16 w-16 items-center justify-center rounded-full border border-cyan-400/20 bg-white/5 transition-all duration-300 group-hover:scale-105 group-hover:border-cyan-400/50">
-
-                  <div className="absolute inset-0 rounded-full bg-cyan-400/10 opacity-0 blur-xl transition-all duration-300 group-hover:opacity-100" />
-
-                  <Image
-                    src="/logo.png"
-                    alt="Syclick Logo"
-                    width={48}
-                    height={48}
-                    className="relative z-10 rounded-full"
-                  />
-
-                </div>
-
-                <div className="text-left">
-
-                  <p className="font-semibold transition group-hover:text-cyan-300">
-                    See Syclick in Action
-                  </p>
-
-                  <p className="text-sm text-slate-500">
-                    2-minute live voice demo
-                  </p>
-
-                </div>
-
-              </button>
 
             </div>
 
