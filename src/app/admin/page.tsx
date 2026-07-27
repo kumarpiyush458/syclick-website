@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import StatCard from "@/components/admin/StatCard";
 import DemoTable from "@/components/admin/DemoTable";
+import LogoutButton from "@/components/LogoutButton";
 
 import {
   Users,
@@ -60,14 +61,18 @@ export default function AdminDashboard() {
   return (
     <div className="space-y-8">
 
-      <div>
-        <h1 className="text-3xl font-bold">
-          Welcome back 👋
-        </h1>
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-3xl font-bold">
+            Welcome back 👋
+          </h1>
 
-        <p className="mt-2 text-zinc-400">
-          Here's what's happening with Syclick today.
-        </p>
+          <p className="mt-2 text-zinc-400">
+            Here's what's happening with Syclick today.
+          </p>
+        </div>
+
+        <LogoutButton />
       </div>
 
       <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
