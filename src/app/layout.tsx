@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import StructuredData from "@/components/seo/StructuredData";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -125,6 +126,8 @@ export default function RootLayout({
         <StructuredData />
 
         {children}
+
+        <GoogleAnalytics gaId="G-7WFJY3NKNY" />
       </body>
     </html>
   );
