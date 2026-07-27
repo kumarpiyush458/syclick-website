@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
+
 import StructuredData from "@/components/seo/StructuredData";
+import ClarityProvider from "@/components/ClarityProvider";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 const manrope = Manrope({
@@ -125,9 +127,11 @@ export default function RootLayout({
       <body className="bg-[#050816] text-white antialiased">
         <StructuredData />
 
-        {children}
-
         <GoogleAnalytics gaId="G-7WFJY3NKNY" />
+
+        <ClarityProvider />
+
+        {children}
       </body>
     </html>
   );
