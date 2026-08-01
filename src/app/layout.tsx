@@ -56,6 +56,24 @@ export const metadata: Metadata = {
 
   applicationName: "Syclick",
 
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Syclick",
+  },
+
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+
+  referrer: "origin-when-cross-origin",
+
+  verification: {
+    google: "GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE",
+  },
+
   category: "Business",
 
   robots: {

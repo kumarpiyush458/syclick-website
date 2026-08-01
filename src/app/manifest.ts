@@ -8,12 +8,14 @@ export default function manifest(): MetadataRoute.Manifest {
       "AI-powered front desk employees for healthcare providers.",
 
     start_url: "/",
+    scope: "/",
 
     display: "standalone",
 
     background_color: "#050816",
-
     theme_color: "#050816",
+
+    orientation: "portrait",
 
     icons: [
       {

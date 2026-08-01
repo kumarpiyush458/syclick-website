@@ -13,11 +13,13 @@ import Features from "@/components/sections/Features";
 import Pricing from "@/components/sections/Pricing";
 import FAQ from "@/components/sections/FAQ";
 import BookDemo from "@/components/sections/BookDemo";
+import Mission from "@/components/sections/Mission";
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
+      <Mission />
       <BuiltFor />
       <Problem />
       <HowItWorks />

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Mail } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -72,6 +72,19 @@ export default function Footer() {
 
             </div>
 
+            <div className="mt-4 flex items-center gap-3">
+
+              <Phone className="h-5 w-5 text-cyan-400" />
+
+              <a
+                href="tel:+91XXXXXXXXXX"
+                className="text-slate-300 transition hover:text-cyan-400"
+              >
+                +91 8092536741
+              </a>
+
+            </div>
+
           </div>
 
           {/* ================================================= */}
@@ -123,12 +136,7 @@ export default function Footer() {
               </li>
 
               <li>
-                <a
-                  href="#contact"
-                  className="text-slate-400 transition hover:text-cyan-400"
-                >
-                  Book Demo
-                </a>
+                
               </li>
 
             </ul>
@@ -147,14 +155,7 @@ export default function Footer() {
 
             <ul className="mt-6 space-y-4">
 
-              <li>
-                <a
-                  href="#contact"
-                  className="text-slate-400 transition hover:text-cyan-400"
-                >
-                  Contact
-                </a>
-              </li>
+
 
               <li>
                 <a

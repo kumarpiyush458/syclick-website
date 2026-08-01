@@ -105,15 +105,15 @@ export default function Hero() {
 
             {/* Glow */}
 
-            <div className="absolute h-[900px] w-[900px] rounded-full bg-cyan-400/15 blur-[220px] lg:h-[1200px] lg:w-[1200px] lg:blur-[260px] animate-glow" />
+            <div className="absolute h-[9000px] w-[900px] rounded-full bg-cyan-400/15 blur-[220px] lg:h-[1200px] lg:w-[1200px] lg:blur-[260px] animate-glow" />
 
             {/* Hero Image */}
 
             <Image
               src="/hero.png"
               alt="Syclick AI Receptionist"
-              width={900}
-              height={1200}
+              width={1500}
+              height={1500}
               priority
               className="
                 relative

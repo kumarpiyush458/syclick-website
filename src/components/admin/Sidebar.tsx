@@ -2,6 +2,7 @@ import Link from "next/link";
 
 const menuItems = [
   { name: "Dashboard", href: "/admin" },
+  { name: "Leads", href: "/admin/leads" }, // ← Add this line
   { name: "Demo Requests", href: "/admin/demo-requests" },
   { name: "Customers", href: "/admin/customers" },
   { name: "AI Agents", href: "/admin/agents" },
