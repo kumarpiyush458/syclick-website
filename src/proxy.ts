@@ -1,7 +1,10 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
+console.log("✅ Proxy is running");
 
 export async function proxy(request: NextRequest) {
+  console.log("🔥 Proxy:", request.nextUrl.pathname);
+
   let response = NextResponse.next();
 
   const supabase = createServerClient(

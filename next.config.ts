@@ -1,10 +1,5 @@
-import { NextResponse, type NextRequest } from "next/server";
+import type { NextConfig } from "next";
 
-export function proxy(request: NextRequest) {
-  console.log("🔥 Proxy running:", request.nextUrl.pathname);
-  return NextResponse.next();
-}
+const nextConfig: NextConfig = {};
 
-export const config = {
-  matcher: ["/:path*"],
-};
+export default nextConfig;
