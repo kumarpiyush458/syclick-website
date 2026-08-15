@@ -22,16 +22,16 @@ export default function StructuredData() {
       },
       {
         "@type": "SoftwareApplication",
+        "@id": "https://getsyclick.com/#software",
         name: "Syclick",
+        url: "https://getsyclick.com",
         applicationCategory: "BusinessApplication",
         operatingSystem: "Web",
-        offers: {
-          "@type": "Offer",
-          price: "0",
-          priceCurrency: "USD",
+        publisher: {
+          "@id": "https://getsyclick.com/#organization",
         },
         description:
-          "AI-powered front desk employees that answer calls, schedule appointments, and automate patient communication.",
+          "Syclick is an AI-powered front desk solution for healthcare providers that answers patient calls, schedules appointments, handles patient questions, and provides 24/7 receptionist support.",
       },
     ],
   };
