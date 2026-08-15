@@ -20,13 +20,13 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://getsyclick.com"),
 
   title: {
-    default: "Syclick | AI Employees for Healthcare",
+    default: "Syclick | AI Receptionist for Healthcare",
     template: "%s | Syclick",
   },
 
   description:
-    "Syclick provides AI-powered front desk employees that answer calls, schedule appointments, automate patient communication, and help healthcare providers deliver exceptional patient experiences 24/7.",
-
+  "Syclick is an AI receptionist for hospitals and clinics that answers calls, schedules appointments, handles patient FAQs, and provides 24/7 front-desk support.",
+  
   keywords: [
     "AI receptionist",
     "AI front desk",
