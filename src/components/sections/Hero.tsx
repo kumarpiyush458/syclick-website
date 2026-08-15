@@ -41,15 +41,15 @@ export default function Hero() {
             <h1 className="mt-6 font-bold tracking-tight leading-[0.95]">
 
               <span className="block text-5xl sm:text-6xl lg:text-7xl">
-                Never Miss
+                Syclick
               </span>
 
               <span className="mt-2 block text-5xl sm:text-6xl lg:text-7xl">
-                Another
+                AI Front Desk
               </span>
 
               <span className="mt-2 block text-6xl text-cyan-400 sm:text-7xl lg:text-[88px]">
-                Patient Call.
+                for Healthcare.
               </span>
 
             </h1>
@@ -111,7 +111,7 @@ export default function Hero() {
 
             <Image
               src="/hero.png"
-              alt="Syclick AI Receptionist"
+              alt="Syclick AI Front Desk and AI Receptionist for Healthcare"
               width={1500}
               height={1500}
               priority
